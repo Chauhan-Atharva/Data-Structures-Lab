@@ -6,7 +6,7 @@ int main(){
     int r; cin>>r; 
     cout<<"Enter the no of columns in array"<<endl;
     int c; cin>>c; 
-    int sparse[1000][3];
+    int sparse[r*c][3];
     int input; 
     cout<<"enter elements rowwise in array"<<endl; 
     for(int i =0; i<r; i++){
