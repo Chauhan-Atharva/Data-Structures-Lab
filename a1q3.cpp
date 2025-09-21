@@ -5,7 +5,7 @@ int * arr;
 void push1(int a){
         if(top1 < s1 ){
             arr[top1] = a;
-            top1--;
+            top1++;
         }
         else{
             cout<<"Stack overflow"<<endl; 
@@ -42,7 +42,7 @@ int main(){
     cout<<"size of 2nd stack"<<endl; 
     cin>>s2;
     n = s1+s2;
-    int * arr = new int[n];
+    arr = new int[n];
     top1 = 0;
     top2 = n-1;
     
